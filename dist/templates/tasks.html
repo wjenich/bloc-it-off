@@ -1,0 +1,47 @@
+<section class="tasks"><div class="app">
+    <div class="task-list">
+        
+        <input type="text" class="form-control" placeholder="What do I need to do?" ng-model="newTaskItem">
+      </div>          
+      <button type="submit" class="btn btn-default">add</button>  
+        
+        
+        <div class="task-block">
+            <div class="row center-xs">
+                <div class="col-xs-2">
+                    <span class="task-check">
+                         <input type="checkbox" name="task_1" value="1" class="task-list-checkbox">
+                    </span>
+                </div>
+                <div class="col-xs-10">
+                    <span class="task-list-desc">
+<!--                        <h5 class="task-list-date"><img src="/assets/images/clock.png">January 25th, 2016</h5>-->
+                        <h3 ng-repeat="task in tasks" class="task-list-item">{{tasks.task}}</h3>
+                    </span>
+                </div>
+            </div>
+        </div> 
+        
+        <div ng-repeat="task in tasks">
+        
+        
+        
+        </div>
+        
+        
+  
+
+<!--
+  
+    <div class="task-view-details">
+        <h5 class="task-view-location">{{task.taskData.location}}</h5>
+        <h5 class="task-view-date">{{task.taskData.date}}</h5>
+        <h3 class="task-view-item">{{task.taskData.item}}</h3>
+        
+        </div>
+</section>
+-->
+    
+
+</div>
+</section>

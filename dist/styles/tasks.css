@@ -1,0 +1,85 @@
+/*
+Use flexbox
+.row
+    .col-xs-1
+        checkbox
+    .col-xs-1
+        time symbol
+    .col-xs-10
+        to-do
+*/
+
+/*
+THEN
+hook up firebase
+manually create an object in array for firebase with just message
+ng- for each task
+    html for task with task from an object on scope
+.... adding 1 thing at a time like textbox to add tasks or timestamps, etc...
+*/
+.app {
+    font-family: 'Open Sans', sans-serif;
+    font-color: #4A4A4A;
+}
+
+.task-list-checkbox{
+    width:50px;
+    height:50px;
+    border-width: 0 0 4px 4px;
+}
+
+.tasks {
+    margin: 20px auto;
+    width: 360px;
+    background: white;
+}
+
+
+.task-block {
+    display: block;
+    line-height: 12px;
+    padding: 12px 15px;
+}
+
+.task-block h5 {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.task-block h3 {
+    font-weight: 300;
+    font-size: 16px;
+    
+} 
+
+span h3 {
+    padding-left: 10px;
+    padding-bottom: 25px;
+    margin: -15px;
+}
+
+
+.task-block + .task-block {
+    border-top: 1px solid #f0f2f3;
+    display: block;
+}
+
+.task-list-desc h5 {
+    font-weight: 300px;
+}
+
+.task-block .task-list-desc {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.task-list-desc img {
+    padding-right: 10px;
+}
+
+.button { 
+    margin-top: 120px;
+    height: 70px;
+    width: 100%;
+    background-color: #50E3C2;
+}

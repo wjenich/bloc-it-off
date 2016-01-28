@@ -1,0 +1,35 @@
+.app {
+    font-family: 'Open Sans', sans-serif;
+    font-color: #4A4A4A;
+}
+
+.tasks {
+    margin: 40px auto;
+    width: 360px;
+    background: white;
+}
+
+.tast-list {
+    display: block;
+}
+
+.task-block {
+    display: inline-block;
+    line-height: 24px;
+    padding: 12px 15px;
+}
+
+.task-block h3 {
+    font-weight: 400;
+    font-size: 16px;
+    
+} 
+
+.task-block + .task-block {
+    border-top: 1px solid #f0f2f3;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+}
